@@ -19,6 +19,13 @@
   "dependencies": {
     "purescript-control": "^3.0.0",
     "purescript-invariant": "^3.0.0",
-    "purescript-newtype": "^2.0.0"
+    "purescript-newtype": "^2.0.0",
+    "purescript-prelude": "matthewleon/purescript-prelude#Function.applyN"
+  },
+  "devDependencies": {
+    "purescript-minibench": "^1.0.1"
+  },
+  "resolutions": {
+    "purescript-prelude": "Function.applyN"
   }
 }
